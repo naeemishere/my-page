@@ -2,27 +2,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 /* apply styles to <body> */
 body {
- color: #39a6b2;
+ color: #d1dff1;
  font-family: Helvetica, Arial, sans-serif;
 }
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: #151318;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #1d1f8d;
+    color: #d1dff1;
     margin: 0;
     display: inline;
   }
   header a {
-    color: #1d1f8d;
+    color: #d1dff1;
     text-decoration: none;
   }
   header nav {
@@ -37,3 +38,73 @@ header h1 {
     font-weight: lighter;
     font-size: 22px;
   }
+  footer {
+    background: #151318;
+    width: 100%;
+    padding: 40px 35px;
+    }
+    footer h2 {
+        display: inline;
+        color: #d1dff1;
+        font-size: 30px;
+        margin: 0;
+      }
+  footer a {
+    text-decoration: none;
+  }
+  footer div {
+    float: right;
+    margin: 7px 0;
+    line-height: 1.5;
+    text-align: right;
+  }
+  footer ul li {
+    display: inline;
+    
+  }
+ footer div ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #d1dff1;
+  }
+ /* Cool Pic Style Start */
+.coolpic {
+    background-image: url("../images/cool-pic.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+.text {
+    margin: 0px;
+    padding: 40px;
+    width: 500px;
+    color: #d1dff1;
+    border: solid 3px #024e76;
+}
+
+  /* Cool Pic Style End */
+#about-me {
+    background-image: url("../images/cool-pic.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+#about-me h1 {
+    display: inline;
+    color: #d1dff1;
+    font-size: 30px;
+    margin: 0;
+    
+}
+#about-me p {
+    margin: 5px;
+    padding: 40px;
+    width: 500px;
+    color: #d1dff1;
+    border: solid 3px #024e76;
+}
