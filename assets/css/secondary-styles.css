@@ -1,0 +1,48 @@
+body {
+  background-color: #151318;
+}
+
+/*page2 cool picture section*/
+
+.page2 {
+  background-image: url('../images/cool-pic 1.jpg');
+  background-position: center;
+  height: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*title name*/
+.page-title {
+  color: #d1dff1;
+  display: inline-block;
+  border-bottom: 4px solid #2e2c6e;
+  padding: 0 60px 15px 60px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.resume-text {
+  width: 80%;
+  margin: 0 auto;
+  color: #d1dff1;
+}
+
+.resume-text h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.resume-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.resume-text ul {
+  margin: 15px 20px;
+}
+
+.resume-text li {
+  color: #d1dff1;
+  margin: 15px 0;
+}

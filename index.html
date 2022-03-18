@@ -1,71 +1,121 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>My Page</title>
+  <meta charset="UTF-8" />
+  <title>My Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-
-    <!--Header/ Navigation Section-->
-<header>
-<h1>
-        <a href="/">Naeem Plastikwala</a>
-</h1>
-<nav>
-    <!-- Unordered list element -->
-<ul>
-    <!-- List item element-->
-    <li>
-      <!-- Anchor element -->
-      <a href="#about-me">About Me</a>
-    </li>
-    <li>
-      <a href="#work">Work</a>
-    </li>
-    <li>
-      <a href="#resume">Resume</a>
-    </li>
-    <li>
-      <a href="#contact-me">Contact Me</a>
-    </li>
-  </ul>
-</nav>
-</header>
-<!--Cool photo section-->
-<section  class="coolpic">
-<div class="text">
-    <h3>Cool Photo</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quidem numquam expedita nobis voluptas quos qui quis, alias optio quo, asperiores laboriosam, quasi non provident eligendi rem? Rem, eum nobis.</p>
-</div>
-</section>
-
-<!--About Me Section-->
-<section id="about-me">
-    <h1>About Me</h1>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, autem nesciunt! Deleniti reprehenderit ullam perspiciatis doloremque, ducimus aspernatur optio id iusto velit eius facere libero! In unde eos doloremque quas.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et in adipisci possimus rem reprehenderit ex sint, soluta perspiciatis repudiandae sunt dolor, pariatur natus cum aliquam sapiente excepturi velit necessitatibus corporis.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae esse porro laboriosam rerum quae ipsa veritatis enim. Natus aliquid beatae dolorem hic blanditiis fuga totam, nemo dolor distinctio exercitationem iusto.</p>
-</section>
-
-<!--Work Section-->
-<section id="work">
-  <h1> Work</h1> 
-</section>
-
-<!--Footer/Contact Me Section-->
-<footer>
-   <h2 id="contact-me"> Contact Me </h2> 
-   <div>
+  <!-- navigation -->
+  <header>
+    <h1>
+            <a href="./index.html">Naeem Plastikwala</a>
+    </h1>
+    <nav>
+        <!-- Unordered list element -->
     <ul>
-    <li><a href="#">Email</a></li>
-    <li><a href="#">GitHub</a></li>
-    <li><a href="#">Linkedin</a></li>
-    <li id="resume"><a href="#">Resume</a></li>    
-</ul>
-</div>
-</footer>
+        <!-- List item element-->
+        <li>
+          <!-- Anchor element -->
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="./Resume.html">Resume</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+    </header>
 
+  <!-- main section -->
+  <section class="main"></section>
+
+  <!-- "about-me" section -->
+  <section id="about-me" class="about">
+    <h2 class="section-title primary-border">About Me</h2>
+    <p>
+      butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+      Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+      fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+      sustainable Intelligentsia umami deep v craft
+    </p>
+  </section>
+
+  
+  <!-- "Project" section -->
+  <section id="work" class="projects">
+    <h2 class="section-title primary-border">Portfolio Projects</h2>
+    
+    <article class="project">
+      <a href="https://naeemishere.github.io/run-buddy/" target="_blank"> 
+      <img src="./assets/images/project-1.jpg" alt="Trainer Ready to take the run on a safe road." />
+      <div class="project-info text-left">
+        <h3>Project 1: Run Buddy</h3> </a>
+        <p>
+          Run Buddy is the first website project that worked on during our first 2 weeks of the bootcamp.
+        </p>
+      </div>
+    </article>
+
+    <!-- second project info -->
+    <article class="project">
+      <a href="https://codepen.io/Naeempl/full/eYeVjXQ" target="_blank">
+      <img src="./assets/images/project-2.jpg" alt="Grouple of People working on a project around office desk." />
+      <div class="project-info text-left">
+        <h3>Project 2: Horiseon</h3> </a> 
+        <p>
+          Horiseon website was a project that was given to us as a weekly challenge. In this project we needed to fix HTML symantics and CSS properties in order have organized HTML and CSS code.
+        </p>
+      </div>
+     </article>
+
+    <!-- third project info -->
+    <article class="project">
+      <a href="https://codepen.io/Naeempl/full/eYeVjXQ"  target="_blank">
+      <img src="./assets/images/project-3.jpg" alt="Box with rainbow colors coming out from top." />
+      <div class="project-info text-left">
+        <h3>Project 3: Magic Box</h3> </a>
+        <p>
+          In this project, we created a box that would change color everytime we clicked on the different color option. We used Javascript to accomplish this task.
+        </p>
+      </div>
+    </article>
+  
+  <!-- forth project info-->
+  <article class="project">
+    <a href="https://codepen.io/Naeempl/full/gOoPBxz" target="_blank">
+    <img src="./assets/images/project-4.jpg" alt="Diary with Pen, To do List written down, with coffee on a table." />
+    <div class="project-info text-left">
+      <h3>Project 4: To Do List</h3></a>
+      <p>
+        In this project we were ask to create a to do list with a delete button. We used JavaScript to accomplish this task.
+      </p>
+    </div>
+    
+  </article>
+
+  </section>
+<!--Main section ends here-->
+
+  <!-- footer -->
+  <footer>
+    <h2 id="contact-me"> Contact Me </h2> 
+    <div>
+     <ul>
+     <li><a href="mailto:nplastikwala@yahoo.com">Email</a></li>
+     <li><a href="https://github.com/naeemishere" target="_blank" >GitHub</a></li>
+     <li><a href="www.linkedin.com/in/naeem-plastikwala-a8b46015a" target="_blank" >Linkedin</a></li>
+     <li id="resume"><a href="Resume.html">Resume</a></li>    
+ </ul>
+ </div>
+ </footer>
 </body>
+
 </html>
