@@ -1,5 +1,8 @@
 # My Page | PortFolio Projects | Resume
 
+# Purpose 
+This Website showcases My Projects, Professional Resume and My Contact Information.
+
 ##Created With
 * HTML
 * CSS
@@ -8,5 +11,5 @@
 ## Website Link
 https://naeemishere.github.io/my-page/
 
-## Created By
-Naeem Plastikwala [2022]
+## Contribution
+Created By Naeem Plastikwala [2022]
