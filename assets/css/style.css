@@ -13,48 +13,51 @@ body {
 header {
   padding: 20px 35px;
   background-color: #151318;
+  display: flex;
+  justify-content: space-between;
 }
 header h1 {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 35px;
   color: #d1dff1;
   margin: 0;
-  display: inline;
 }
 header a {
   color: #d1dff1;
   text-decoration: none;
 }
-
-
 a:hover {
     color: #ffffff;
     filter: drop-shadow(5px 5px 5px #88465f );
 }
-
 header nav {
-  float: right;
   margin: 5px 0;
 }
-header nav ul li {
-  display: inline;
-}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 
 /*<footer> section*/
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background: #151318;
-  width: 100%;
+  width: flex;
   padding: 40px 35px;
   }
   
 footer h2 {
-      display: inline;
       color: #d1dff1;
       font-size: 30px;
       margin: 0;
@@ -63,7 +66,6 @@ footer a {
   text-decoration: none;
 }
 footer div {
-  float: right;
   margin: 7px 0;
   line-height: 1.5;
   text-align: right;
@@ -86,13 +88,24 @@ section {
 /* main section */
 .main {
   background-image: url('../images/cool-pic 1.jpg');
-  height: 300px;
+  height: flex;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-/* main section end */
+.main-text {
+    width: 100%;
+    text-align: center;
+    color: #d1dff1;
+    font-size: 20px;
+    line-height: 1.7;
+  }
 
+/* main section end */
+.flex-row {
+    display: flex;
+    justify-content: center;
+  }
 /*About me section*/
 .about {
   text-align: center;
@@ -111,8 +124,6 @@ section {
 .section-title {
   font-size: 55px;
   color: #d1dff1;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
   text-shadow: 2px 2px 4px rgb(133, 46, 125);
@@ -171,10 +182,6 @@ section {
 
 /*First project section ends*/
 
-.project img {
-    margin-bottom: 50px;
-    filter: drop-shadow(10px 10px 10px #5f64a89d );
-}
 
 .projects {
   text-align: center;
@@ -184,7 +191,7 @@ section {
 /* project 2,3,4 section*/
 .project {
   width: auto;
-  margin: 0 auto 35px auto;
+  margin: 0 auto;
   background: #151318;
   color: #d1dff1;
   overflow: auto;
@@ -192,12 +199,13 @@ section {
 
 .project a {
     text-decoration: none;
-  }
+}
 
 .project img {
-  width: 35%;
-  float: left;
+    float: left;
   transition: transform 1s;
+  margin-bottom: 50px;
+    filter: drop-shadow(10px 10px 10px #5f64a89d );
   
 }
 
