@@ -25,9 +25,16 @@ header a {
   color: #d1dff1;
   text-decoration: none;
 }
+
+
+a:hover {
+    color: #a8c6ee;
+    text-shadow: 2px 2px 4px rgb(133, 46, 125);
+}
+
 header nav {
   float: right;
-  margin: 7px 0;
+  margin: 5px 0;
 }
 header nav ul li {
   display: inline;
@@ -37,13 +44,16 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+
+
 /*<footer> section*/
 footer {
   background: #151318;
   width: 100%;
   padding: 40px 35px;
   }
-  footer h2 {
+  
+footer h2 {
       display: inline;
       color: #d1dff1;
       font-size: 30px;
@@ -106,6 +116,7 @@ section {
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
+  text-shadow: 2px 2px 4px rgb(133, 46, 125);
 }
 
 .primary-border {
@@ -119,33 +130,75 @@ section {
 
 
 /*projects portfolio section*/
+/*First project section*/
+
+.project1 h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+    text-decoration: none; 
+}
+  .project1 a {
+      text-decoration: none;
+}
+  .project1 p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    display: none;   
+}
+.project1 img {
+    transition: transform 1s;
+    filter: drop-shadow();
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.project1:hover p {
+    display: block;
+}
+.project1:hover img {
+    transform: scale(1.2);
+}
+
+
+
+/*First project section ends*/
+
+.project img {
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
 
 .projects {
   text-align: center;
   background-color: #151318;
 }
-
+/* project 2,3,4 section*/
 .project {
-  width: 900px;
-  margin: 0 auto 30px auto;
+  width: 1000px;
+  margin: 0 auto 35px auto;
   background: #151318;
   color: #d1dff1;
   overflow: auto;
 }
 
+.project a {
+    text-decoration: none;
+  }
+
 .project img {
   width: 35%;
   float: left;
+  
+  transition: transform 1s;
 }
 
 .project-info {
-  padding: 35px;
+  padding: 15px;
   float: left;
-  width: 65%;
-  text-decoration: none;
-}
-
-.project a {
+  width: 60%;
   text-decoration: none;
 }
 
@@ -158,6 +211,16 @@ section {
 .project-info p {
   font-size: 17px;
   line-height: 1.3;
+  display: none;
+}
+
+.project:hover p, h3  {
+    padding-left: 40px;
+    display: block;
+}
+
+.project:hover img {
+    transform: scale(1.2);
 }
 
 
@@ -166,6 +229,4 @@ section {
 }
 
 
-
-
-
+/*Animation to the Cool "link"*/
