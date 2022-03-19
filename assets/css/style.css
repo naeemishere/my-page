@@ -28,8 +28,8 @@ header a {
 
 
 a:hover {
-    color: #a8c6ee;
-    text-shadow: 2px 2px 4px rgb(133, 46, 125);
+    color: #ffffff;
+    filter: drop-shadow(5px 5px 5px #88465f );
 }
 
 header nav {
@@ -101,7 +101,6 @@ section {
 
 .about p {
   line-height: 1.7;
-  
   color: #d1dff1;
   width: 80%;
   font-size: 20px;
@@ -118,6 +117,9 @@ section {
   border-bottom: 3px solid;
   text-shadow: 2px 2px 4px rgb(133, 46, 125);
 }
+.section-title:hover {
+    color: #ffffff;
+}
 
 .primary-border {
   border-color: #2e2c6e;
@@ -131,6 +133,7 @@ section {
 
 /*projects portfolio section*/
 /*First project section*/
+
 
 .project1 h3 {
     text-align: center;
@@ -150,9 +153,10 @@ section {
 }
 .project1 img {
     transition: transform 1s;
-    filter: drop-shadow();
     margin-bottom: 50px;
     border-radius: 15px;
+    filter: drop-shadow(5px 10px 15px #46884f );
+    
 }
 
 .project1:hover p {
@@ -160,6 +164,7 @@ section {
 }
 .project1:hover img {
     transform: scale(1.2);
+    filter: brightness(110%);
 }
 
 
@@ -168,16 +173,17 @@ section {
 
 .project img {
     margin-bottom: 50px;
-    border-radius: 15px;
+    filter: drop-shadow(10px 10px 10px #5f64a89d );
 }
 
 .projects {
   text-align: center;
   background-color: #151318;
+  border-bottom: 3px solid rgba(231, 206, 236, 0.411);
 }
 /* project 2,3,4 section*/
 .project {
-  width: 1000px;
+  width: auto;
   margin: 0 auto 35px auto;
   background: #151318;
   color: #d1dff1;
@@ -191,8 +197,8 @@ section {
 .project img {
   width: 35%;
   float: left;
-  
   transition: transform 1s;
+  
 }
 
 .project-info {
@@ -215,12 +221,14 @@ section {
 }
 
 .project:hover p, h3  {
-    padding-left: 40px;
+    padding-left: 60px;
     display: block;
 }
 
 .project:hover img {
     transform: scale(1.2);
+    filter: blur(.3px);
+    filter: brightness(100%);
 }
 
 
