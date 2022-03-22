@@ -17,7 +17,7 @@ This Website showcases My Projects, Professional Resume and My Contact Informati
 - Adjusting webpage for different screen sizes
 
 ## Screenshots
-![Example screenshot](.assets/images/mypage-screen-shot)
+![Example screenshot](./assets/images/mypage-screen-shot.png)
 
 
 ## Website Link
